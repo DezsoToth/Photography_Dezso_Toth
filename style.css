@@ -1,0 +1,837 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+html {
+  height: 100%;
+  min-width: 300px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #181818;
+  color: #f3f3f3;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+}
+h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-top: 4rem;
+  color: white;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+  
+  /* -- Start Hamburger Menu Code -- */
+  
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../assets/iceland_mounts.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, .4) inset;
+}
+
+header p {
+  text-transform: uppercase;
+  word-spacing: 8px;
+}
+
+.hamburger {
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  float: right;
+  cursor: pointer;
+  border-radius: 0 0 5px 0;
+  transition: .5s;
+}
+
+.hamburger:hover {
+  box-shadow: 0px 0px 8px rgb(74, 137, 255);
+}
+.hamburger:before {
+  content: "";
+  display: block;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 4px;
+}
+.hamburger:after {
+  content: "";
+  display: block;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 4px;
+  margin-top: 4px;
+  box-shadow: 0px 8px 0 #f3f3f3;
+}
+  
+nav {
+  background-color: transparent;
+  margin-bottom: 2rem;
+  max-height: 0;
+  overflow: hidden;
+  clear:both;
+  transition: .3s;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+nav li {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: white;
+  display: block;
+}
+  
+header input[type="checkbox"]:checked ~ nav {
+  max-height: 150px;
+}
+
+header a,
+header label {
+  transition: .3s;
+}
+  
+header a:hover,
+header a:focus,
+header label:hover,
+header label:focus {
+  background-color: rgba(0, 0, 0, .2);
+  text-shadow: 0px 0px 8px white;
+  color: white;
+}
+
+
+  /*************************/
+ /*         ABOUT         */
+/*************************/
+
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  width: 100%;
+}
+
+.about-text {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h2, h3, h4, h5 {
+  text-decoration: none;
+  padding: 10px 0 10px 20px;
+  font-weight: 100;
+  line-height: 50px;
+}
+
+.story-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #252525;
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  transition: .5s;
+  margin: 20px;
+}
+
+.story-button:hover {
+  color: #f3f3f3;
+  background-color: #5c5c5c;
+}
+
+.image-container {
+  width: 100%;
+  min-height: 400px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  background-image: url(./assets/portrait_self-2.jpg);
+  min-height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: 1.5s;
+}
+
+.about-image:hover {
+  transform: scale(1.03);
+}
+
+
+  /**********************************/
+ /* Lifestyle-Commercial-Wildlife, Portraits_Landscapes  */
+/**********************************/
+
+
+.lifestyle-commercial-wildlife-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 1200px;
+  width: 100%;
+}
+
+.lifestyle-container,
+.commercial-container,
+.wildlife-container,
+.portraits,
+.landscapes {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.lifestyle,
+.commercial,
+.wildlife {
+  display: flex;
+}
+
+.lifestyle img,
+.commercial img,
+.wildlife img,
+.portraits img,
+.landscapes img {
+  min-height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  transition: 1s;
+}
+
+
+.lifestyle > .content-lifestyle,
+.commercial > .content-commercial,
+.wildlife > .content-wildlife,
+.portraits > .content-portraits,
+.landscapes > .content-landscapes {
+  position: absolute;
+  inset: 0;
+  font-size: 2.5rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f3f3f3;
+  text-shadow: 0 0 6px white;
+  transition: 1s;
+}
+
+.lifestyle:hover > img.blur,
+.commercial:hover > img.blur,
+.wildlife:hover > img.blur,
+.portraits:hover > img.blur,
+.landscapes:hover > img.blur {
+  transform: scale(1.03);
+}
+
+.lifestyle > .content-lifestyle.fade, 
+.commercial > .content-commercial.fade, 
+.wildlife > .content-wildlife.fade,
+.portraits > .content-portraits.fade,
+.landscapes > .content-landscapes.fade {
+  opacity: 1;
+}
+
+.lifestyle:hover > .content-lifestyle.fade, 
+.commercial:hover > .content-commercial.fade, 
+.wildlife:hover > .content-wildlife.fade,
+.portraits:hover > .content-portraits.fade,
+.landscapes:hover > .content-landscapes.fade {
+  opacity: 1;
+}
+
+.commercial-wildlife-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+  /*************************/
+ /* PORTRAITS-LANDSCAPES  */
+/*************************/
+
+.portraits-landscapes-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  width: 100%;
+}
+
+  /*************************/
+ /*      MY-GOAL          */
+/*************************/
+
+
+.my-goal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  text-align: center;
+}
+
+.goal {
+  width: 70%;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-transform: none;
+  padding-top: 1rem;
+}
+
+
+  /*************************/
+ /*      GET-IN-TOUCH     */
+/*************************/
+
+
+.get-in-touch {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.get-in-touch > img {
+  display: block;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  transition: 1.5s;
+}
+
+.get-in-touch:hover > img.blur {
+  transform: scale(1.03);
+}
+
+.getintouch-text {
+  position: absolute;
+  inset: 0;
+  padding: 2rem;
+  line-height: 3rem;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.getintouch-text > h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-shadow: 0px 0px 6px white;
+}
+
+.getintouch-text > h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-shadow: 0px 0px 6px white;
+}
+
+
+
+  /*************************/
+ /*      MY-WORK          */
+/*************************/
+
+.mywork-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+.mywork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 400px;
+  color: white;
+  line-height: 3rem;
+}
+
+.mywork > h5 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.2rem;
+  padding: 0;
+}
+
+.mywork > h2 {
+  font-size: 3rem;
+  padding: 0;
+}
+
+.mywork > .fa-arrow-right-long {
+  padding: 4rem 70%;
+  opacity: 0;
+  transition: .3s;
+}
+
+.mywork > .fa-arrow-right-long:hover {
+  opacity: 1;
+}
+
+.fa-arrow-right-long {
+  padding: 50px 0px;
+}
+
+  /*************************/
+ /*     FOOTER            */
+/*************************/
+
+
+.footer-navbar-arrowup {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer-navbar, .footer-arrowup {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+}
+
+.footer-navbar > a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  transition: .5s;
+  font-size: 1.2rem;
+}
+
+.footer-navbar > a:hover {
+  text-shadow: 0px 0px 12px white;
+  color: lightslategray;
+}
+
+.fa-arrow-up-long {
+  color: white;
+  justify-self: flex-start;
+  font-size: 1.5rem;
+  transition: .5s;
+}
+
+.fa-arrow-up-long:hover {
+  text-shadow: 0px 0px 12px white;
+  color: lightslategray;
+}
+
+.footer-copyright-social {
+  display: flex;  
+  flex-direction: column;
+ 
+  align-items: center;
+  padding: 20px 0 80px 0;
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright p {
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.copyright {
+  color: white;
+  font-size: .8rem;
+}
+
+.social {
+  display: flex;
+}
+
+.social > a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
+  color: white;
+  transition: .5s;
+}
+
+.social > a:hover {
+  color: lightslategray;
+}
+
+.poweredbydtp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 38px;
+  color: #f3f3f3;
+  background-color: #252525;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+}
+
+
+.poweredbydtp a {
+  font-size: 18px;
+  padding: 0 8px;
+  color: #e97c00;
+  transition: .5s;
+  cursor: pointer;
+  border: none;
+}
+
+.poweredbydtp a:hover {
+  color: #ffaa48;
+  text-shadow: 0px 0px 8px white;
+
+}
+
+.powered {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #f3f3f3;
+  padding: 0;
+}
+
+
+  /*************************/
+ /*     RESPONSIVE        */
+/*************************/
+
+
+
+
+@media (min-width: 768px) {
+  header {
+    height: 650px;
+    background-attachment: fixed;
+  }
+  h1 {
+    font-size: 3.5rem;
+    padding-top: 2rem;
+    letter-spacing: 4px;
+    word-spacing: 15px;
+  }
+  p {
+    font-size: 2.2rem;
+    padding-top: 5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  
+  header a:hover,
+  header a:focus,
+  header label:hover,
+  header label:focus {
+    background-color: transparent;
+    }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 0 !important;
+    max-height: none;
+  }
+  nav ul, nav li, nav li a {
+    display: inline-block;
+  }
+  nav a {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 35px;
+    font-size: 1.5rem;
+  }
+
+    /*************************/
+   /*         ABOUT         */
+  /*************************/
+
+
+  .about-container {
+    flex-direction: row;
+    min-height: 650px;
+  }
+
+  .about-text {
+    min-height: 650px;
+  }
+
+  .image-container {
+    min-height: 650px;
+  }
+
+  .about-image {
+    min-height: 650px;
+  }
+
+    /**********************************/
+   /* Lifestyle-Commercial-Wildlife  */
+  /**********************************/
+
+  .lifestyle > .content-lifestyle.fade, 
+  .commercial > .content-commercial.fade, 
+  .wildlife > .content-wildlife.fade,
+  .portraits > .content-portraits.fade,
+  .landscapes > .content-landscapes.fade {
+    opacity: 0;
+  }
+
+  .lifestyle:hover > .content-lifestyle.fade, 
+  .commercial:hover > .content-commercial.fade, 
+  .wildlife:hover > .content-wildlife.fade,
+  .portraits:hover > .content-portraits.fade,
+  .landscapes:hover > .content-landscapes.fade {
+    opacity: 1;
+  }
+
+  .lifestyle-commercial-wildlife-container {
+    flex-direction: row;
+    min-height: 700px;
+  }
+
+   .lifestyle-container {
+    min-height: 700px;
+    width: 60vw;
+  }
+
+  .lifestyle img {
+    min-height: 700px;
+  }
+
+  .commercial-container,
+  .wildlife-container {
+    min-height: 350px;
+    width: 40vw;
+  }
+  .commercial img,
+  .wildlife img {
+    min-height: 350px;
+    width: 40vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+
+  .commercial-wildlife-container {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .portraits-landscapes-section {
+    display: flex;
+    flex-direction: row;
+    min-height: 700px;
+    width: 100%;
+  }
+
+  .portraits-container {
+    min-height: 700px;
+  }
+
+  .portraits img,
+  .landscapes img {
+    min-height: 700px;
+  }
+
+  .landscapes-container {
+    min-height: 700px;
+  }
+
+  .goal {
+    width: 40%;
+    font-size: 2.2rem;
+  }
+
+  .get-in-touch {
+    height: 800px;
+  }
+  
+  .get-in-touch > img {
+    height: 800px;
+  }
+  
+  .getintouch-text {
+    padding: 5rem;
+    line-height: 5rem;
+  }
+  
+  .getintouch-text > h2 {
+    font-size: 3rem;
+    letter-spacing: .3rem;
+  }
+
+
+  
+  /*************************/
+ /*      MY-WORK          */
+/*************************/
+
+  .mywork-container {
+    height: 60vh;
+  }
+
+  .mywork {
+    margin-top: 150px;
+  }
+  
+
+  /*************************/
+ /*     FOOTER            */
+/*************************/
+
+  .footer-navbar-arrowup {
+    padding: 20px;
+  }
+
+  .footer-navbar, .footer-arrowup {
+    flex-direction: row;
+  }
+
+  .footer-navbar > a {
+    padding: 0px 20px;
+    font-size: 1.4rem;
+
+  }
+
+  .footer-copyright p {
+    font-size: 1.3rem;
+    text-transform: none;
+  }
+
+  .powered {
+    font-size: 1.2rem;
+    text-transform: none;
+  }
+}
+ 
+
+@media (min-width: 1200px) {
+  header {
+    height: 850px;
+  }
+    /*************************/
+    /*         ABOUT         */
+  /*************************/
+  .about-container {
+    min-height: 900px;
+  }
+
+  .about-text {
+    min-height: 900px;
+  }
+
+  .about-text h4 {
+    padding-left: 40px;
+  }
+  
+  .about-text h3 {
+    font-size: 1.7rem;
+    padding-left: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .about-text h2 {
+    font-size: 2.2rem;
+    padding:30px 0 60px 40px;
+  }
+
+  .about-text .story-button {
+    margin-left: 40px;
+  }
+
+  .image-container {
+    min-height: 900px;
+  }
+
+  .about-image {
+   min-height: 900px;
+  }
+
+
+    /**********************************/
+   /* Lifestyle-Commercial-Wildlife  */
+  /**********************************/
+
+  .lifestyle-commercial-wildlife-container {
+    min-height: 800px;
+  }
+
+  .lifestyle-container {
+    min-height: 800px;
+  }
+
+  .lifestyle img {
+    min-height: 800px;
+  }
+
+  .commercial-container,
+  .wildlife-container {
+    min-height: 400px;
+  }
+  .commercial img,
+  .wildlife img {
+    min-height: 400px;
+  }
+}  
+
+.hidden {
+  position: fixed;
+  top: -100%;
+  left: -100%;
+}
