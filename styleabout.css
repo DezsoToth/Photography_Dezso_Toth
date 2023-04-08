@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  
+  html {
+    height: 100%;
+    min-width: 300px;
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #181818;
+    color: #f3f3f3;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+  }
+  h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-top: 4rem;
+    color: white;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
