@@ -470,7 +470,6 @@ h2, h3, h4, h5 {
 .footer-copyright-social {
   display: flex;  
   flex-direction: column;
- 
   align-items: center;
   padding: 20px 0 80px 0;
 }
@@ -621,6 +620,15 @@ h2, h3, h4, h5 {
    /* Lifestyle-Commercial-Wildlife  */
   /**********************************/
 
+  .lifestyle > .content-lifestyle, 
+  .commercial > .content-commercial, 
+  .wildlife > .content-wildlife,
+  .portraits > .content-portraits,
+  .landscapes > .content-landscapes {
+    font-size: 3rem;
+  }
+
+
   .lifestyle > .content-lifestyle.fade, 
   .commercial > .content-commercial.fade, 
   .wildlife > .content-wildlife.fade,
@@ -715,7 +723,10 @@ h2, h3, h4, h5 {
     letter-spacing: .3rem;
   }
 
-
+  .getintouch-text > h3 {
+    font-size: 1.3rem;
+    letter-spacing: .3rem;
+  }
   
   /*************************/
  /*      MY-WORK          */
@@ -807,6 +818,16 @@ h2, h3, h4, h5 {
     /**********************************/
    /* Lifestyle-Commercial-Wildlife  */
   /**********************************/
+
+
+  .lifestyle > .content-lifestyle, 
+  .commercial > .content-commercial, 
+  .wildlife > .content-wildlife,
+  .portraits > .content-portraits,
+  .landscapes > .content-landscapes {
+    font-size: 3.5rem;
+  }
+
 
   .lifestyle-commercial-wildlife-container {
     min-height: 800px;
