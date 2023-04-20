@@ -42,7 +42,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 400px;
-  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../assets/iceland_mounts1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assets2/Balbr_Sunrise1.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -294,7 +294,7 @@ header label:focus {
     margin: 10px 35px;
     font-size: 1.5rem;
   }
-
+}
   .hidden {
     position: fixed;
     top: -100%;
