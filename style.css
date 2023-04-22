@@ -535,8 +535,8 @@ h2, h3, h4, h5 {
 }
 
 .powered {
-  font-size: 18px;
-  letter-spacing: 2px;
+  font-size: 15px;
+  letter-spacing: 1px;
   color: #f3f3f3;
   padding: 0;
 }
