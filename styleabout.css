@@ -20,16 +20,18 @@ body {
 }
 h1 {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 16rem;
 }
 p {
-  font-size: 1.4rem;
+  font-size: 1.125rem;
   font-weight: 300;
-  padding-top: 4rem;
+  padding-top: 2rem;
   color: white;
   text-align: center;
+  line-height: 2rem;
 }
 a {
   text-decoration: none;
@@ -131,12 +133,90 @@ header label:focus {
 /*************************/
 
 .about_container {
-  padding: 5rem 2rem;
+  padding: 4rem 1rem;
 }
 
 .about_head {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
+}
+
+.about_story {
+  padding: 1rem;
+}
+
+.about_photo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8rem 0;
+  justify-content: center;
+}
+
+.about_photo img {
+  width: 85vw;
+}
+
+.about_image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about_image img {
+  width: 85vw;
+}
+
+.portfolio-contact_container {
+  margin: 6rem 0;
+}
+
+.portfolio_container,
+.contact_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.mywork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: auto;
+  color: white;
+  
+}
+
+.mywork > h5 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1rem;
+  padding: 5rem 0 2rem 0;
+  font-weight: 300;
+}
+
+.mywork > h2 {
+  font-size: 2rem;
+  padding: 0;
+  font-weight: 400;
+}
+
+.mywork > .fa-arrow-right-long {
+  padding: 4rem 70%;
+  opacity: 0;
+  transition: .3s;
+}
+
+.mywork > .fa-arrow-right-long:hover {
+  opacity: 1;
+}
+
+.fa-arrow-right-long {
+  padding: 40px 0px;
+  font-size: 1.2rem;
 }
 
   /*************************/
@@ -250,8 +330,8 @@ header label:focus {
 }
 
 .powered {
-  font-size: 18px;
-  letter-spacing: 2px;
+  font-size: 15px;
+  letter-spacing: 1px;
   color: #f3f3f3;
   padding: 0;
 }
