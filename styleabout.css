@@ -409,7 +409,11 @@ header label:focus {
 
   .portfolio-contact_container {
     display: flex;
-    margin: 15rem 5rem;
+    margin: 15rem 5rem 10rem;
+  }
+
+  .footer-navbar {
+    flex-direction: row;
   }
 }
   .hidden {
