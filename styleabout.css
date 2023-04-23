@@ -402,6 +402,15 @@ header label:focus {
   .about_photo img {
     width: 45vw;
   }
+
+  .about_image img {
+    width: 90vw;
+  }
+
+  .portfolio-contact_container {
+    display: flex;
+    margin: 15rem 5rem;
+  }
 }
   .hidden {
     position: fixed;
