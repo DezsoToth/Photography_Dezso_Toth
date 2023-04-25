@@ -169,7 +169,7 @@ h2, h3, h4, h5 {
 
 .story-button:hover {
   color: #f3f3f3;
-  background-color: #5c5c5c;
+  background-color: rgba(92, 92, 92, .7);
 }
 
 .image-container {
