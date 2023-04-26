@@ -125,7 +125,62 @@ header label:focus {
     color: white;
 }
 
+  /******************/
+ /*     FORM       */
+/******************/
+.contact-for_form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 310px;
+    height: 485px;
+    margin: 5px;
+    
+    border-radius: 3px;
+}
 
+.form-detail {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--mainFontNarrow);
+    font-weight: 700;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.form-detail input:last-of-type {
+    margin-left: 0;
+}
+
+.form-details a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0 1.5rem;
+}
+
+
+#vezeteknev, #email, #tel, #szakma {
+    background-color: var(--white);
+    box-sizing: border-box;
+    max-width: 440x;
+    padding: 10px;
+    border-style: none;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+#szakma {
+    height: 150px;
+}
+
+
+  /******************/
+ /*     FOOTER     */
+/******************/
 
 .footer-navbar-arrowup {
     display: flex;
