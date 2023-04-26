@@ -27,7 +27,26 @@
         <p>Contact me</p>
     </header>
     <main>
-
+        <div class="contact-form_container">
+            <div class="contact-form_text">
+                <h3 class="sayhello">Say hello.</h3>
+                <h3 class="letswork">Let's work together.</h3>
+                <p class="work-text">Please send a message with your request and I'll get in touch with you soon.</p>
+            </div>
+            <div class="contact-form_form">
+                <form class="form-detail" action="https://formspree.io/f/mpznoygv" method="POST">
+                    <label for="vezeteknev">Name</label>
+                    <input type="text" id="vezeteknev" name="vezeteknev" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="tel">Contact number</label>
+                    <input type="tel" name="tel" id="tel" required>
+                    <label for="szakma">Leave a message</label>
+                    <textarea type="text" name="subject" id="szakma" required></textarea>
+                    <input type="submit" value="Send message" class="btn btn-secondary">
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-container">
