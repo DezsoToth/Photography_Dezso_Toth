@@ -137,17 +137,18 @@ header label:focus {
 
 .contact-form_form {
     display: flex;
-    flex-direction: column;
-    width: 310px;
-    height: 485px;
+    flex-wrap: wrap;
     margin: 5px;
 }
 
 .form-detail {
     display: flex;
     flex-direction: column;
-    font-family: var(--mainFontNarrow);
-    font-weight: 700;
+    flex-wrap: wrap;
+    width: 80vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
     padding: 15px;
     line-height: 30px;
 }
@@ -156,7 +157,7 @@ header label:focus {
     margin-left: 0;
 }
 
-.form-details a {
+.form-detail a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,14 +171,32 @@ header label:focus {
 #vezeteknev, #email, #tel, #szakma {
     background-color: var(--white);
     box-sizing: border-box;
-    max-width: 440x;
+    
     padding: 10px;
     border-style: none;
-    border-bottom: 1px solid rgb(156, 156, 156);
+    border-bottom: 1px solid #474747;
 }
 
 #szakma {
-    height: 150px;
+    height: 250px;
+}
+
+.story-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #252525;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .5s;
+    margin: 20px;
+}
+  
+.story-button:hover {
+    color: #f3f3f3;
+    background-color: rgba(92, 92, 92, .7);
 }
 
 
