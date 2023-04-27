@@ -128,15 +128,19 @@ header label:focus {
   /******************/
  /*     FORM       */
 /******************/
-.contact-for_form {
+
+.contact-form_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6rem 3rem;
+}
+
+.contact-form_form {
     display: flex;
     flex-direction: column;
-    background-color: white;
     width: 310px;
     height: 485px;
     margin: 5px;
-    
-    border-radius: 3px;
 }
 
 .form-detail {
@@ -169,8 +173,7 @@ header label:focus {
     max-width: 440x;
     padding: 10px;
     border-style: none;
-    border-radius: 4px;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid rgb(156, 156, 156);
 }
 
 #szakma {
