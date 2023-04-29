@@ -237,6 +237,18 @@ header label:focus {
     text-transform: uppercase;
     font-size: 1.2rem;
     letter-spacing: 5px;
+    margin: 3rem 0 10rem;
+}
+
+.price-image {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+}
+
+.price {
+    justify-content: center;
+    align-items: center;
 }
 
 
