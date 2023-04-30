@@ -244,6 +244,11 @@ header label:focus {
     justify-content: center;
 }
 
+.price .price-text {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .prices-text {
     text-align: center;
     text-transform: uppercase;
@@ -255,19 +260,17 @@ header label:focus {
 .pricetitle {
     font-size: 1.5rem;
     margin: 2rem 0 1rem;
+    font-weight: 600;
 }
 
 .price-text ul {
     margin-left: 2rem;
     font-size: 1.1rem;
     letter-spacing: 1px;
-}
-
-ul {
     list-style: none;
 }
   
-ul li::before {
+.price-text ul li::before {
     content: "\2022";
     color: darkgray;
     font-weight: 100;
@@ -275,6 +278,40 @@ ul li::before {
     width: 1em;
     
 }
+
+.prices {
+    margin: 3rem 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+
+  /******************/
+ /*     DEPOSIT    */
+/******************/
+
+.deposit-others_container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.deposit-others_container h3, p {
+    text-align: start;
+    padding: 0;
+    line-height: 2rem;
+}
+
+.deposit-others_container h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 2rem 0;
+}
+
+.deposit-others_container p {
+    font-size: 1.1rem;
+}
+
 
   /******************/
  /*     FOOTER     */
@@ -398,23 +435,24 @@ ul li::before {
 /*********************/
 
 @media (min-width: 768px) {
-    .prices_container {
-        margin: 1rem;
-    }
-
-    .prices-section1,
-    .prices-section2 {
+    
+    .prices-section1 {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 8rem;
     }
 
+
+    .prices-section2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
     .price {
-        height: 50vh;
-        margin: auto;
-        justify-content: flex-start; 
-        align-items: 
+        width: 25vw;
+        margin: 0 auto;
     }
 
     .price-image {
@@ -431,6 +469,13 @@ ul li::before {
 
     .prices-section1 .price-text {
         padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .headshot .price-text {
+        display: ;
     }
 }
 
