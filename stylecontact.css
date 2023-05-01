@@ -51,6 +51,8 @@ header {
 header p {
     text-transform: uppercase;
     word-spacing: 8px;
+    text-align: center;
+    margin-top: 5rem;
 }
   
 .hamburger {
@@ -222,6 +224,90 @@ header label:focus {
 
 
 
+
+  /******************/
+ /*     FAQ     */
+/******************/
+.faq_container {
+    padding: 3rem 0;
+    background-color: rgba(71, 71, 71, .2);
+    width: 100%;
+}
+
+.centerplease {
+    margin: 2rem auto;
+    font-size: 40px;
+    display: flex;
+    padding-left: 60px;
+  }
+
+.content {
+    width: 85%;
+    padding: 10px;
+    margin: 0 auto;
+    padding: 0 0px 0 0;
+}
+
+.question {
+    position: relative;
+    color: white;
+    margin: 0;
+    padding: 20px 10px 20px 40px;
+    display: block;
+    width:100%;
+    cursor: pointer;
+  }
+  
+  .answers {
+    padding: 0px 15px;
+    margin: 5px 0;
+    max-height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .7s linear;
+    -moz-transition: .7s linear;
+    -o-transition: .7s linear;
+    transition: .7s linear;
+  }
+  
+  .questions:checked ~ .answers{
+    max-height: 700px;
+    opacity: 1;
+    padding-left: 40px;
+    font-size: 1.1rem;
+  }
+  
+  .plus {
+    position: absolute;
+    margin-left: 10px;
+    z-index: 5;
+    font-size: 2.5em;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+    color: white !important;
+  }
+  
+  .questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .questions {
+    display: none;
+  }
+
   /******************/
  /*     PRICES     */
 /******************/
@@ -267,16 +353,12 @@ header label:focus {
     margin-left: 2rem;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    list-style: none;
+    list-style: outside;
 }
   
-.price-text ul li::before {
-    content: "\2022";
-    color: darkgray;
-    font-weight: 100;
-    display: inline-block; 
-    width: 1em;
-    
+.price-text li {
+    line-height: 30px;
+ 
 }
 
 .prices {
