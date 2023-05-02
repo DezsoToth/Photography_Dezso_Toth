@@ -523,48 +523,52 @@ header label:focus {
     header {
         height: 910px;
         background-attachment: fixed;
-      }
-      h1 {
+    }
+    h1 {
         font-size: 3.5rem;
         padding-top: 15rem;
         letter-spacing: 4px;
         word-spacing: 15px;
-      }
-      header p {
+    }
+    header p {
         font-size: 1.5rem;
         padding-top: 5rem;
         letter-spacing: 2px;
         text-transform: uppercase;
-      }
+    }
     
-      .hamburger {
+    .hamburger {
         display: none;
-      }
-    
-      
-      header a:hover,
-      header a:focus,
-      header label:hover,
-      header label:focus {
+    }
+          
+    header a:hover,
+    header a:focus,
+    header label:hover,
+    header label:focus {
         background-color: transparent;
-        }
-      nav {
+    }
+    
+    nav {
         display: flex;
         justify-content: space-evenly;
         border: 0 !important;
         max-height: none;
-      }
-      nav ul, nav li, nav li a {
+    }
+    
+    nav ul, nav li, nav li a {
         display: inline-block;
-      }
-      nav a {
+    }
+    
+    nav a {
         display: inline-block;
         padding: 10px;
         margin: 10px 35px;
         font-size: 1.5rem;
-      }
+    }
 
-
+      /******************/
+     /*     FORM       */
+    /******************/
 
     .contact-form_container {
         display: flex;
@@ -575,11 +579,12 @@ header label:focus {
 
     .contact-form_text {
         width: 40vw;
-        padding: 3rem;
+        padding: 5rem;
     }
 
     .form-detail {
         width: 60vw;
+        padding: 5rem;
     }
 
     .faq_container {
@@ -632,7 +637,42 @@ header label:focus {
         flex-direction: column;
     }
 
-  
+    .deposit-others_container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .deposit_container,
+    .others_container {
+        padding: 6rem 2rem;
+    }
+
+  /*************************/
+ /*     FOOTER            */
+/*************************/
+
+  .footer-navbar-arrowup {
+    padding: 20px;
+  }
+
+  .footer-navbar, .footer-arrowup {
+    flex-direction: row;
+  }
+
+  .footer-navbar > a {
+    padding: 0px 20px;
+    font-size: 1.4rem;
+  }
+
+  .footer-copyright p {
+    font-size: 1.2rem;
+    text-transform: none;
+  }
+
+  .powered {
+    font-size: 1.2rem;
+    text-transform: none;
+  }
 }
 
 
