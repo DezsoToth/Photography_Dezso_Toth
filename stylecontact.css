@@ -645,6 +645,7 @@ header label:focus {
     .deposit_container,
     .others_container {
         padding: 6rem 2rem;
+        width: 50vw;
     }
 
   /*************************/
