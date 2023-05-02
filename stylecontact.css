@@ -648,32 +648,32 @@ header label:focus {
         width: 50vw;
     }
 
-  /*************************/
- /*     FOOTER            */
-/*************************/
+     /*************************/
+    /*     FOOTER            */
+   /*************************/
 
-  .footer-navbar-arrowup {
-    padding: 20px;
-  }
+    .footer-navbar-arrowup {
+        padding: 20px;
+    }
 
-  .footer-navbar, .footer-arrowup {
-    flex-direction: row;
-  }
+    .footer-navbar, .footer-arrowup {
+        flex-direction: row;
+    }
 
-  .footer-navbar > a {
-    padding: 0px 20px;
-    font-size: 1.4rem;
-  }
+    .footer-navbar > a {
+        padding: 0px 20px;
+        font-size: 1.4rem;
+    }
 
-  .footer-copyright p {
-    font-size: 1.2rem;
-    text-transform: none;
-  }
+    .footer-copyright p {
+        font-size: 1.2rem;
+        text-transform: none;
+    }
 
-  .powered {
-    font-size: 1.2rem;
-    text-transform: none;
-  }
+    .powered {
+        font-size: 1.2rem;
+        text-transform: none;
+    }
 }
 
 
