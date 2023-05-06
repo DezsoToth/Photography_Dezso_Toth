@@ -132,9 +132,59 @@ header label:focus {
     color: white;
 }
 
+  /****************************/
+ /*       RESPONSIVE         */
+/****************************/
 
+@media (min-width: 768px) {
+    header {
+        height: 650px;
+        background-attachment: fixed;
+    }
 
+    h1 {
+        font-size: 3.5rem;
+        padding-top: 2rem;
+        letter-spacing: 4px;
+        word-spacing: 15px;
+    }
 
+    p {
+        font-size: 2.2rem;
+        padding-top: 5rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    header a:hover,
+    header a:focus,
+    header label:hover,
+    hedaer label:focus {
+        background-color: transparent;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        border: 0 !important;
+        max-height: none;
+    }
+
+    nav ul, nav li, nav li a {
+        display: inline-block;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px;
+        margin: 10px 35px;
+        font-variant-position: 1.5rem;
+    }
+}
 
 
 
