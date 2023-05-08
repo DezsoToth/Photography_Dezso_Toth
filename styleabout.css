@@ -4,12 +4,12 @@
   font-family: 'Cormorant Garamond', serif;
 }
   
-  
 html {
   height: 100%;
-  min-width: 300px;
+  min-width: 280px;
   scroll-behavior: smooth;
 }
+
 body {
   background-color: #181818;
   color: #f3f3f3;
@@ -18,6 +18,7 @@ body {
   font-size: 20px;
   margin: 0;
 }
+
 h1 {
   font-weight: 300;
   font-size: 3rem;
@@ -25,6 +26,7 @@ h1 {
   text-transform: uppercase;
   margin-top: 10rem;
 }
+
 p {
   font-size: 1.125rem;
   font-weight: 300;
@@ -33,6 +35,7 @@ p {
   text-align: center;
   line-height: 2rem;
 }
+
 a {
   text-decoration: none;
 }
@@ -69,6 +72,7 @@ header p {
 .hamburger:hover {
   box-shadow: 0px 0px 8px rgb(74, 137, 255);
 }
+
 .hamburger:before {
   content: "";
   display: block;
@@ -76,6 +80,7 @@ header p {
   width: 100%;
   height: 4px;
 }
+
 .hamburger:after {
   content: "";
   display: block;
@@ -94,17 +99,20 @@ nav {
   clear:both;
   transition: .3s;
 }
+
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: block;
 }
+
 nav li {
   display: block;
   margin: 10px 0;
   text-align: center;
 }
+
 nav a {
   color: white;
   display: block;
@@ -187,7 +195,6 @@ header label:focus {
   margin-top: 50px;
   height: auto;
   color: white;
-  
 }
 
 .mywork > h5 {
@@ -205,7 +212,7 @@ header label:focus {
 }
 
 .mywork > .fa-arrow-right-long {
-  padding: 4rem 70%;
+  padding: 4rem 50%;
   opacity: 0;
   transition: .3s;
 }
@@ -233,7 +240,7 @@ header label:focus {
 .footer-navbar, .footer-arrowup {
   display: flex;
   flex-direction: column;
-  padding: 50px 40px;
+  padding: 50px 30px;
 }
 
 .footer-navbar > a {
@@ -264,7 +271,6 @@ header label:focus {
 .footer-copyright-social {
   display: flex;  
   flex-direction: column;
- 
   align-items: center;
   padding: 20px 0 80px 0;
 }
@@ -275,13 +281,8 @@ header label:focus {
 }
 
 .footer-copyright p {
-  padding: 0;
-  font-size: 1.1rem;
-}
-
-.copyright {
-  color: white;
-  font-size: .8rem;
+  padding: 10px;
+  font-size: .9rem;
 }
 
 .social {
@@ -326,11 +327,10 @@ header label:focus {
 .poweredbydtp a:hover {
   color: #ffaa48;
   text-shadow: 0px 0px 8px white;
-
 }
 
 .powered {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #f3f3f3;
   padding: 0;
@@ -348,6 +348,7 @@ header label:focus {
     height: 950px;
     background-attachment: fixed;
   }
+
   h1 {
     font-size: 4rem;
     margin-top: 16rem;
@@ -356,6 +357,7 @@ header label:focus {
     word-spacing: 15px;
     font-weight: 500;
   }
+
   p {
     font-size: 2.2rem;
     padding-top: 5rem;
@@ -367,22 +369,24 @@ header label:focus {
     display: none;
   }
 
-  
   header a:hover,
   header a:focus,
   header label:hover,
   header label:focus {
     background-color: transparent;
     }
+
   nav {
     display: flex;
     justify-content: space-evenly;
     border: 0 !important;
     max-height: none;
   }
+
   nav ul, nav li, nav li a {
     display: inline-block;
   }
+  
   nav a {
     display: inline-block;
     padding: 10px;
@@ -427,17 +431,16 @@ header label:focus {
   }
 
   .footer-copyright p {
-    font-size: 1.2rem;
     text-transform: none;
   }
 
   .powered {
-    font-size: 1.2rem;
     text-transform: none;
   }
 }
-  .hidden {
+
+.hidden {
     position: fixed;
     top: -100%;
     left: -100%;
-  }
+}
