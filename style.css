@@ -480,14 +480,10 @@ h2, h3, h4, h5 {
 }
 
 .footer-copyright p {
-  padding: 0;
-  font-size: 1.1rem;
+  padding: 10px;
+  font-size: .9rem;
 }
 
-.copyright {
-  color: white;
-  font-size: .8rem;
-}
 
 .social {
   display: flex;
@@ -535,7 +531,7 @@ h2, h3, h4, h5 {
 }
 
 .powered {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #f3f3f3;
   padding: 0;
@@ -759,12 +755,10 @@ h2, h3, h4, h5 {
   }
 
   .footer-copyright p {
-    font-size: 1.2rem;
     text-transform: none;
   }
 
   .powered {
-    font-size: 1.2rem;
     text-transform: none;
   }
 }
