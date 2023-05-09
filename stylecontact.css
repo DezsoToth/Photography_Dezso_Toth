@@ -258,7 +258,7 @@ header label:focus {
     margin: 0;
     padding: 17px 0px 25px 50px;
     display: block;
-    width:90%;
+    width:85%;
     cursor: pointer;
   }
   
@@ -327,11 +327,17 @@ header label:focus {
     justify-content: center;
     align-items: center;
     margin: 2rem;
+    /* overflow: hidden; */
 }
 .price-image {
     display: flex;
     width: 85vw;
     justify-content: center;
+    transition: .8s;
+}
+
+.price-image:hover {
+    transform: scale(1.02);
 }
 
 .price .price-text {
@@ -406,13 +412,13 @@ header label:focus {
 .footer-navbar-arrowup {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: auto;
 }
   
 .footer-navbar, .footer-arrowup {
     display: flex;
     flex-direction: column;
-    padding: 50px 40px;
+    padding: 50px 25px;
 }
   
 .footer-navbar > a {
@@ -455,6 +461,7 @@ header label:focus {
 .footer-copyright p {
     padding: 10px;
     font-size: .9rem;
+    text-align: center;
 }
   
 
