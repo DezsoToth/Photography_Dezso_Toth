@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
 }
     
@@ -133,6 +134,101 @@ header label:focus {
 }
 
 
+.portfolio-contact_container {
+    margin: 6rem 0;
+}
+  
+.portfolio_container,
+.contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+  
+.mywork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: auto;
+    color: white;
+}
+  
+.mywork > h5 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    padding: 1rem 0 2rem 0;
+    font-weight: 300;
+}
+  
+.mywork > h2 {
+    font-size: 2rem;
+    padding: 0;
+    font-weight: 400;
+}
+  
+.mywork > .fa-arrow-right-long {
+    padding: 2rem 50%;
+    opacity: 0;
+    transition: .3s;
+}
+  
+.mywork > .fa-arrow-right-long:hover {
+    opacity: 1;
+}
+  
+.fa-arrow-right-long {
+    padding: 20px 0px;
+    font-size: 1.2rem;
+}
+
+
+  /*************************/
+ /*     VERTICAL          */
+/*************************/
+
+.verical_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.vertical-photo {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.vertical-photo img {
+    width: 70%;
+    margin: 2.2rem 0;
+    padding: 2.5rem 0;
+    transition: .8s;
+}
+
+.vertical-photo img:hover {
+    transform: scale(1.3);
+}
+
+.horizontal_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+ 
+    
+}
+
+.horizontal_container img {
+    display: flex;
+    width: 45vw;
+}
 
 
   /*************************/
@@ -252,3 +348,120 @@ header label:focus {
     left: -100%;
 }
 
+/*************************/
+ /*     RESPONSIVE        */
+/*************************/
+
+@media (min-width: 576px) {
+
+}
+
+
+
+
+@media (min-width: 768px) {
+    header {
+      height: 950px;
+      background-attachment: fixed;
+    }
+  
+    h1 {
+      font-size: 4rem;
+      margin-top: 16rem;
+      padding: 2rem;
+      letter-spacing: 4px;
+      word-spacing: 15px;
+      font-weight: 500;
+    }
+  
+    p {
+      font-size: 2.2rem;
+      padding-top: 5rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  
+    header a:hover,
+    header a:focus,
+    header label:hover,
+    header label:focus {
+      background-color: transparent;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+      border: 0 !important;
+      max-height: none;
+    }
+  
+    nav ul, nav li, nav li a {
+      display: inline-block;
+    }
+    
+    nav a {
+      display: inline-block;
+      padding: 10px;
+      margin: 10px 35px;
+      font-size: 1.5rem;
+    }
+
+    .portfolio-contact_container {
+        display: flex;
+        margin: 15rem 5rem 10rem;
+    }
+
+
+      /*************************/
+     /*     VERTICAL          */
+    /*************************/
+
+    .verical_container {
+        flex-direction: row;
+    }   
+
+    .vertical-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .vertical-photo img {
+        width: 30%;
+        margin: 2.2rem 0;
+        padding: 2.5rem 0;
+        transition: .8s;
+    }
+
+    .vertical-photo img:hover {
+        transform: scale(1.2);
+    }
+
+
+
+
+
+
+
+    .footer-navbar {
+        flex-direction: row;
+    }
+    
+    .footer-navbar > a {
+        padding: 0px 20px;
+        font-size: 1.4rem;
+    }
+    
+    .footer-copyright p {
+        text-transform: none;
+    }
+    
+    .powered {
+        text-transform: none;
+    }
+}
