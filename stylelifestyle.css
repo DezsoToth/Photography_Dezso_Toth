@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
 }
     
@@ -135,7 +134,7 @@ header label:focus {
 
 
 .portfolio-contact_container {
-    margin: 6rem 0;
+    margin: 6rem 0 0;
     background-color: #252525;
 }
   
@@ -145,7 +144,7 @@ header label:focus {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 200px;
+    height: 250px;
 }
   
 .mywork {
@@ -334,21 +333,11 @@ header label:focus {
 }
  
 
-.hidden {
-    position: fixed;
-    top: -100%;
-    left: -100%;
-}
+
 
 /*************************/
  /*     RESPONSIVE        */
 /*************************/
-
-@media (min-width: 576px) {
-
-}
-
-
 
 
 @media (min-width: 768px) {
@@ -358,19 +347,11 @@ header label:focus {
     }
   
     h1 {
-      font-size: 4rem;
+      font-size: 3.5rem;
       margin-top: 16rem;
       padding: 2rem;
       letter-spacing: 4px;
       word-spacing: 15px;
-      font-weight: 500;
-    }
-  
-    p {
-      font-size: 2.2rem;
-      padding-top: 5rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
     }
   
     .hamburger {
@@ -402,44 +383,12 @@ header label:focus {
       font-size: 1.5rem;
     }
 
-    .portfolio-contact_container {
-        display: flex;
-        margin: 15rem 5rem 10rem;
-    }
-
-
+   
       /*************************/
      /*     VERTICAL          */
     /*************************/
 
-    .verical_container {
-        flex-direction: row;
-    }   
-
-    .vertical-photo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-
-    .vertical-photo img {
-        width: 30%;
-        margin: 2.2rem 0;
-        padding: 2.5rem 0;
-        transition: .8s;
-    }
-
-    .vertical-photo img:hover {
-        transform: scale(1.2);
-    }
-
-
-
-
-
-
-
+   
     .footer-navbar {
         flex-direction: row;
     }
@@ -456,4 +405,10 @@ header label:focus {
     .powered {
         text-transform: none;
     }
+}
+
+.hidden {
+    position: fixed;
+    top: -100%;
+    left: -100%;
 }
