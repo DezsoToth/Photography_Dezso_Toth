@@ -48,7 +48,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assets2/Balbr_Sunrise1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assets5/DJI_0068.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,6 +133,39 @@ header label:focus {
 }
 
 
+
+  /*************************/
+ /*     VERTICAL          */
+/*************************/
+
+.vertical_container,
+.horizontal_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vertical_container {
+    margin-top: 3rem;
+}
+
+.vertical_container img,
+.horizontal_container img {
+    display: flex;
+    width: 85vw;
+    justify-content: center;
+    transition: .8s;
+    margin: 1rem 0;
+}
+
+.vertical_container img:hover,
+.horizontal_container img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
 .portfolio-contact_container {
     margin: 6rem 0 0;
     background-color: #252525;
@@ -191,35 +224,6 @@ header label:focus {
     font-size: 1.2rem;
 }
 
-
-  /*************************/
- /*     VERTICAL          */
-/*************************/
-
-.vertical_container,
-.horizontal_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.vertical_container {
-    margin-top: 3rem;
-}
-
-.vertical_container img,
-.horizontal_container img {
-    display: flex;
-    width: 85vw;
-    justify-content: center;
-    transition: .8s;
-    margin: 1rem 0;
-}
-
-.vertical_container img:hover,
-.horizontal_container img:hover {
-    transform: scale(1.03);
-}
 
 
   /*************************/
@@ -388,7 +392,30 @@ header label:focus {
      /*     VERTICAL          */
     /*************************/
 
-   
+    .vertical_container,
+    .horizontal_container {
+        flex-direction: row;
+    }
+
+    .vertical_container img {
+        width: 30vw;
+        margin: 1rem;
+    }
+
+    .horizontal_container img {
+        width: 46vw;
+        margin: 1rem;
+    }
+    
+
+    .portfolio-contact_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7rem 0;
+    }
+
+
     .footer-navbar {
         flex-direction: row;
     }
