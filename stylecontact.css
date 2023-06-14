@@ -419,7 +419,6 @@ header label:focus {
 .footer-navbar-arrowup {
     display: flex;
     justify-content: center;
-    padding: auto;
 }
   
 .footer-navbar, .footer-arrowup {

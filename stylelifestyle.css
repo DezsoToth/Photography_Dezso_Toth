@@ -427,7 +427,6 @@ header label:focus {
     .footer-navbar, .footer-arrowup {
         flex-direction: row;
     }
-
         
     .footer-navbar > a {
         padding: 0px 20px;

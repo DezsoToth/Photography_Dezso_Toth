@@ -231,11 +231,14 @@ header label:focus {
  /*     FOOTER            */
 /*************************/
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer-navbar-arrowup {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content: center;
 }
   
 .footer-navbar, .footer-arrowup {
@@ -416,8 +419,11 @@ header label:focus {
         padding: 7rem 0;
     }
 
-
-    .footer-navbar {
+    .footer-navbar-arrowup {
+        padding: 20px;
+    }
+    
+    .footer-navbar, .footer-arrowup {
         flex-direction: row;
     }
     
@@ -427,6 +433,7 @@ header label:focus {
     }
     
     .footer-copyright p {
+        font-size: 1.2rem;
         text-transform: none;
     }
     
