@@ -681,6 +681,10 @@ header label:focus {
         font-size: 1.2rem;
         text-transform: none;
     }
+
+    .powered {
+        text-transform: none;
+    }
 }
 
 .hidden {
