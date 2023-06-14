@@ -231,6 +231,10 @@ header label:focus {
  /*     FOOTER            */
 /*************************/
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+  }
 
 .footer-navbar-arrowup {
     display: flex;
