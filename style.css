@@ -54,7 +54,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../assets/iceland_mounts1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../assetshome/iceland_mounts1.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,7 +194,7 @@ h2, h3, h4, h5 {
 }
 
 .about-image {
-  background-image: url(./assets/portrait_self-2.jpg);
+  background-image: url(./assetshome/portrait_self-2.jpg);
   min-height: 400px;
   width: 100%;
   background-position: center;
