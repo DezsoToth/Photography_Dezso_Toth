@@ -47,7 +47,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assets3/TDI_7064.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assetsportfolio/TDI_7064.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +148,7 @@ header label:focus {
 }
 
 .picture {
-    background-image: url(./assets3/Balbr_Sunrise1.jpg);
+    background-image: url(./assetsportfolio/Balbr_Sunrise1.jpg);
     min-height: 500px;
     width: 100%;
     background-position: center;
@@ -163,23 +163,23 @@ header label:focus {
 }
 
 .commercial .picture {
-    background-image: url(./assets3/TDI_1691.jpg);
+    background-image: url(./assetsportfolio/TDI_1691.jpg);
 }
 
 .lifestyle .picture {
-    background-image: url(./assets3/TDI_2305.jpg);
+    background-image: url(./assetsportfolio/TDI_2305.jpg);
 }
 
 .wildelife .picture {
-    background-image: url(./assets3/TDI_2335_1.jpg);
+    background-image: url(./assetsportfolio/TDI_2335_1.jpg);
 }
 
 .portraits .picture {
-    background-image: url(./assets3/TDI_5069.jpg);
+    background-image: url(./assetsportfolio/TDI_5069.jpg);
 }
 
 .landscapes .picture {
-    background-image: url(./assets3/DJI_0026hdr.jpg);
+    background-image: url(./assetsportfolio/DJI_0026hdr.jpg);
 }
 
 .titles {
