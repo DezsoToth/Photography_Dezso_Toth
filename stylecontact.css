@@ -42,7 +42,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../assets4/TDI_7825-Pano_1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../assetscontact/TDI_7825-Pano_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -445,7 +445,6 @@ header label:focus {
     justify-self: flex-start;
     font-size: 1.5rem;
     transition: .5s;
-    padding: 30px 20px;
 }
   
 .fa-arrow-up-long:hover {
@@ -466,6 +465,7 @@ header label:focus {
 }
   
 .footer-copyright p {
+    text-align: center;
     padding: 10px;
     font-size: .9rem;
 }

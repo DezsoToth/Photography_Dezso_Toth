@@ -259,7 +259,6 @@ header label:focus {
   justify-self: flex-start;
   font-size: 1.5rem;
   transition: .5s;
-  padding: 30px 20px;
 }
 
 .fa-arrow-up-long:hover {
