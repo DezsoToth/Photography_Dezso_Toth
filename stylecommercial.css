@@ -47,7 +47,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(./assets6/TDI_1742.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(./assetscommercial/TDI_1742.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +189,6 @@ header label:focus {
 }
 
 .mywork:hover {
-    color: gray;
     text-shadow: 0 0 12px white;
 }
   

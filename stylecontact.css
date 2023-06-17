@@ -329,17 +329,17 @@ header label:focus {
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .price-image {
     display: flex;
     width: 85vw;
     justify-content: center;
-    transition: .8s;
+    transition: 1s;
 }
 
 .price-image:hover {
-    transform: scale(1.02);
+    transform: scale(1.15);
 }
 
 .price .price-text {
@@ -625,7 +625,7 @@ header label:focus {
     }
 
     .price {
-        width: 25vw;
+        width: 45vw;
         margin: 0 auto;
     }
 
@@ -635,6 +635,7 @@ header label:focus {
 
     .prices-section2 img {
         width: 40vw;
+        height: auto;
     }
 
     .prices-text {

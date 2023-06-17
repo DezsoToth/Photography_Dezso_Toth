@@ -191,6 +191,11 @@ header label:focus {
   margin-top: 50px;
   height: auto;
   color: white;
+  transition: .5s;
+}
+
+.mywork:hover {
+  text-shadow: 0px 0px 12px white;
 }
 
 .mywork > h5 {

@@ -48,7 +48,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assets5/DJI_0068.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assetslifestyle/DJI_0068.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,10 +144,9 @@ header label:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.vertical_container {
     margin-top: 3rem;
 }
+
 
 .vertical_container img,
 .horizontal_container img {
@@ -192,7 +191,6 @@ header label:focus {
 }
 
 .mywork:hover {
-    color: gray;
     text-shadow: 0 0 12px white;
 }
   
