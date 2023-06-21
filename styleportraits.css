@@ -47,7 +47,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(./assetsportraits/TDI_9592-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(./assetsportraits/TDI_9592-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,6 +147,7 @@ header label:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .vertical_container img,
@@ -154,13 +155,13 @@ header label:focus {
     display: flex;
     width: 85vw;
     justify-content: center;
-    transition: .8s;
+    transition: 1.5s;
     margin: 1rem 0;
 }
 
 .vertical_container img:hover,
 .horizontal_container img:hover {
-    transform: scale(1.05);
+    transform: scale(1.07);
 }
 
 
