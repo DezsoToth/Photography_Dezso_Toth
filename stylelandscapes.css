@@ -47,7 +47,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./assetslandscapes/DJI_0058-1.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(./assetslandscapes/DJI_0058-1.JPG);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
