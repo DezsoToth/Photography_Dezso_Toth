@@ -40,6 +40,7 @@ p {
 a {
     text-decoration: none;
 }
+
 /* -- Start Hamburger Menu Code -- */
     
 header {
@@ -160,11 +161,7 @@ header label:focus {
     transform: scale(1.05);
 }
 
-
-
-
 .portfolio-contact_container {
- 
     background-color: #252525;
 }
   
