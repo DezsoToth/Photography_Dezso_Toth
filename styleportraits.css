@@ -40,6 +40,7 @@ p {
 a {
     text-decoration: none;
 }
+
 /* -- Start Hamburger Menu Code -- */
     
 header {
@@ -166,7 +167,6 @@ header label:focus {
 
 
 .portfolio-contact_container {
- 
     background-color: #252525;
 }
   
@@ -191,7 +191,6 @@ header label:focus {
 }
 
 .mywork:hover {
-    
     text-shadow: 0 0 12px white;
 }
   
@@ -229,8 +228,8 @@ header label:focus {
 /*************************/
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-navbar-arrowup {
