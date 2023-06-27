@@ -34,6 +34,7 @@ p {
   color: white;
   text-align: center;
 }
+
 a {
   text-decoration: none;
 }
@@ -71,6 +72,7 @@ header p {
 .hamburger:hover {
   box-shadow: 0px 0px 8px rgb(74, 137, 255);
 }
+
 .hamburger:before {
   content: "";
   display: block;
@@ -78,6 +80,7 @@ header p {
   width: 100%;
   height: 4px;
 }
+
 .hamburger:after {
   content: "";
   display: block;
@@ -96,17 +99,20 @@ nav {
   clear:both;
   transition: .3s;
 }
+
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: block;
 }
+
 nav li {
   display: block;
   margin: 10px 0;
   text-align: center;
 }
+
 nav a {
   color: white;
   display: block;
@@ -563,12 +569,14 @@ h2, h3, h4, h5 {
     height: 910px;
     background-attachment: fixed;
   }
+
   h1 {
     font-size: 4rem;
     padding-top: 2rem;
     letter-spacing: 4px;
     word-spacing: 15px;
   }
+
   p {
     font-size: 2.2rem;
     padding-top: 5rem;
@@ -586,16 +594,19 @@ h2, h3, h4, h5 {
   header label:hover,
   header label:focus {
     background-color: transparent;
-    }
+  }
+
   nav {
     display: flex;
     justify-content: space-evenly;
     border: 0 !important;
     max-height: none;
   }
+
   nav ul, nav li, nav li a {
     display: inline-block;
   }
+
   nav a {
     display: inline-block;
     padding: 10px;
@@ -674,6 +685,7 @@ h2, h3, h4, h5 {
     min-height: 350px;
     width: 40vw;
   }
+  
   .commercial img,
   .wildlife img {
     min-height: 350px;
