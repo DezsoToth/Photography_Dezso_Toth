@@ -162,7 +162,6 @@ header label:focus {
     font-size: 1.1rem;
     font-weight: 100;
     padding: 0;
-    
 }
 
 .contact-form_form {
@@ -225,12 +224,10 @@ header label:focus {
     background-color: rgba(92, 92, 92, .7);
 }
 
-
-
-
   /******************/
  /*     FAQ     */
 /******************/
+
 .faq_container {
     padding: 3rem 0;
     background-color: rgba(71, 71, 71, .15);
@@ -262,9 +259,9 @@ header label:focus {
     display: block;
     width:85%;
     cursor: pointer;
-  }
+}
   
-  .answers {
+.answers {
     padding: 0px 15px;
     margin: 5px 0;
     max-height: 0;
@@ -276,16 +273,16 @@ header label:focus {
     -moz-transition: .4s linear;
     -o-transition: .4s linear;
     transition: .4s linear;
-  }
+}
   
   .questions:checked ~ .answers{
     max-height: 700px;
     opacity: 1;
     padding-left: 50px;
     font-size: 1.1rem;
-  }
+}
   
-  .plus {
+.plus {
     position: absolute;
     margin-left: 10px;
     z-index: 5;
@@ -301,18 +298,18 @@ header label:focus {
     -o-transition: .4s ease;
     transition: .4s ease;
     color: white !important;
-  }
+}
   
-  .questions:checked ~ .plus {
+.questions:checked ~ .plus {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
+}
   
-  .questions {
+.questions {
     display: none;
-  }
+}
 
   /******************/
  /*     PRICES     */
@@ -331,6 +328,7 @@ header label:focus {
     margin: 2rem;
     overflow: hidden;
 }
+
 .price-image {
     display: flex;
     width: 85vw;
@@ -370,7 +368,6 @@ header label:focus {
   
 .price-text li {
     line-height: 30px;
- 
 }
 
 .prices {
@@ -469,7 +466,6 @@ header label:focus {
     padding: 10px;
     font-size: .9rem;
 }
-  
 
 .social {
     display: flex;
@@ -534,12 +530,14 @@ header label:focus {
         height: 910px;
         background-attachment: fixed;
     }
+
     h1 {
         font-size: 4rem;
         padding-top: 15rem;
         letter-spacing: 4px;
         word-spacing: 15px;
     }
+
     header p {
         font-size: 1.5rem;
         padding-top: 5rem;
@@ -609,14 +607,12 @@ header label:focus {
         padding-left: 5%;
     }
 
-
     .prices-section1 {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         margin-bottom: 8rem;
     }
-
 
     .prices-section2 {
         display: flex;
