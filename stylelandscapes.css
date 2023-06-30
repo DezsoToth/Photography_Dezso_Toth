@@ -40,6 +40,7 @@ p {
 a {
     text-decoration: none;
 }
+
 /* -- Start Hamburger Menu Code -- */
     
 header {
@@ -311,7 +312,6 @@ header label:focus {
     z-index: 10;
     bottom: 0;
 }
-  
   
 .poweredbydtp a {
     font-size: 18px;
