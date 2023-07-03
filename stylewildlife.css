@@ -132,8 +132,6 @@ header label:focus {
     color: white;
 }
 
-
-
   /*************************/
  /*     VERTICAL          */
 /*************************/
@@ -220,8 +218,6 @@ header label:focus {
     padding: 20px 0px;
     font-size: 1.2rem;
 }
-
-
 
   /*************************/
  /*     FOOTER            */
@@ -314,7 +310,6 @@ header label:focus {
     bottom: 0;
 }
   
-  
 .poweredbydtp a {
     font-size: 18px;
     padding: 0 8px;
@@ -336,9 +331,6 @@ header label:focus {
     padding: 0;
 }
  
-
-
-
   /*************************/
  /*     RESPONSIVE        */
 /*************************/
@@ -407,7 +399,6 @@ header label:focus {
         margin: 1rem;
     }
     
-
     .portfolio-contact_container {
         display: flex;
         justify-content: center;
