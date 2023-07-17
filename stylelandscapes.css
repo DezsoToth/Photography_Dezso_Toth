@@ -153,7 +153,7 @@ header label:focus {
 .vertical_container img,
 .horizontal_container img {
     display: flex;
-    width: 85vw;
+    width: 100vw;
     height: auto;
     justify-content: center;
     transition: .8s;
