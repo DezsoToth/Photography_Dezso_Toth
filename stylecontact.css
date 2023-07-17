@@ -325,13 +325,13 @@ header label:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin: 1rem;
     overflow: hidden;
 }
 
 .price-image {
     display: flex;
-    width: 85vw;
+    width: 95vw;
     justify-content: center;
     transition: 1s;
 }
@@ -384,7 +384,9 @@ header label:focus {
 .deposit-others_container {
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 0;
+    padding: 3rem;
+    background-color: rgba(44, 44, 44, 0.7);
 }
 
 .deposit-others_container h3, p {
