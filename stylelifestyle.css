@@ -142,13 +142,16 @@ header label:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.vertical_container_top {
     margin-top: 3rem;
 }
 
 .vertical_container img,
 .horizontal_container img {
     display: flex;
-    width: 85vw;
+    width: 100vw;
     justify-content: center;
     transition: .8s;
     margin: 1rem 0;
