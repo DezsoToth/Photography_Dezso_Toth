@@ -259,6 +259,7 @@ header label:focus {
     display: block;
     width:85%;
     cursor: pointer;
+    transition: .8s;
 }
   
 .answers {
