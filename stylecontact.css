@@ -261,6 +261,10 @@ header label:focus {
     cursor: pointer;
     transition: .8s;
 }
+
+.question:hover {
+
+}
   
 .answers {
     padding: 0px 15px;
