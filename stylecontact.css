@@ -235,7 +235,7 @@ header label:focus {
 }
 
 .centerplease {
-    margin: 2rem auto;
+    margin: 1rem auto;
     font-size: 40px;
     display: flex;
     padding-left: 20px;
@@ -346,17 +346,17 @@ header label:focus {
     transform: scale(1.05);
 }
 
-.price .price-text {
+/* .price .price-text {
     justify-content: flex-start;
     align-items: flex-start;
-}
+} */
 
 .prices-text {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     letter-spacing: 5px;
-    margin: 5rem 0 8rem;
+    margin: 7rem 0 7rem;
 }
 
 .pricetitle {
