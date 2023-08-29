@@ -413,7 +413,7 @@ header label:focus {
   }
 
   .about_image img {
-    width: 90vw;
+    width: 100%;
   }
 
   .portfolio-contact_container {
