@@ -50,6 +50,7 @@ header {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, .4) inset;
 }
 
