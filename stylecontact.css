@@ -237,7 +237,7 @@ header label:focus {
 
 .centerplease {
     margin: 1rem auto;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     padding-left: 20px;
     width: 85%;
@@ -254,7 +254,7 @@ header label:focus {
     display: flex;
     position: relative;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0;
     padding: 17px 0px 25px 50px;
     display: block;
@@ -614,6 +614,10 @@ header label:focus {
         display: flex;
         width: 30vw;
         padding-left: 5%;
+    }
+
+    .question {
+        font-size: 1.8rem;
     }
 
     .prices-section1 {
