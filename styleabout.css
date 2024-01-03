@@ -256,8 +256,8 @@ header label:focus {
 }
 
 .footer-navbar > a:hover {
-  text-shadow: 0px 0px 12px white;
-  color: lightslategray;
+  text-shadow: 0px 0px 8px white;
+  color: white;
 }
 
 .fa-arrow-up-long {
