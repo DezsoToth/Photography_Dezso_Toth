@@ -245,7 +245,7 @@ header label:focus {
   
 .footer-navbar > a {
     text-decoration: none;
-    color: white;
+    color: rgb(200, 200, 200);
     padding: 10px 20px;
     transition: .5s;
     font-size: 1.2rem;
