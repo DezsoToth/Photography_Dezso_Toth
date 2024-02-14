@@ -255,7 +255,7 @@ header label:focus {
 }
   
 .fa-arrow-up-long {
-    color: white;
+    color: rgb(200, 200, 200);
     justify-self: flex-start;
     font-size: 1.5rem;
     transition: .5s;
