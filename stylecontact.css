@@ -401,6 +401,7 @@ header label:focus {
     text-align: start;
     padding: 0;
     line-height: 2rem;
+    text-shadow: 0 0 12px black;
 }
 
 .deposit-others_container h3 {

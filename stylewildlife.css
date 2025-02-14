@@ -183,6 +183,7 @@ header label:focus {
     margin-top: 50px;
     height: auto;
     color: white;
+    text-shadow: 0 0 12px black;
     transition: .5s;
 }
 
